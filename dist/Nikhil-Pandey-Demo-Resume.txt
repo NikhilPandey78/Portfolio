@@ -1,0 +1,88 @@
+NIKHIL PANDEY
+DevOps Engineer
+
+Email: np63884336@gmail.com
+Phone: +91 63884 33679
+Location: Noida (Uttar Pradesh)
+LinkedIn: https://linkedin.com/in/nikhilpandey
+GitHub: https://github.com/nikhilpandey
+
+================================================================
+PROFESSIONAL SUMMARY
+================================================================
+DevOps Engineer with hands-on experience in cloud infrastructure,
+CI/CD automation, Linux server administration, and containerized
+application deployment. Strong focus on improving release
+workflows, system reliability, and operational efficiency across
+production environments.
+
+================================================================
+CORE SKILLS
+================================================================
+Cloud Platforms: AWS, Azure, GCP
+Containers: Docker, Docker Compose, Kubernetes
+CI/CD: Jenkins, GitHub Actions, GitLab CI
+Infrastructure as Code: Terraform, Ansible, CloudFormation
+Servers: Linux, Nginx, Apache
+Databases: MySQL, PostgreSQL, MongoDB
+Monitoring: Prometheus, Grafana, ELK Stack
+
+================================================================
+PROFESSIONAL EXPERIENCE
+================================================================
+DevOps Engineer
+AbyM Technology
+2025 - Present
+
+- Deployed and maintained production applications on AWS EC2 and
+  Linux servers.
+- Built and managed CI/CD pipelines using Git and Jenkins for
+  automated deployments.
+- Managed Docker containers and improved deployment workflows for
+  faster releases.
+- Configured Nginx, domains, SSL certificates, and server security
+  for production systems.
+- Performed database backups, updates, and production maintenance.
+- Worked with development teams to streamline release processes and
+  improve deployment reliability.
+
+DevOps Projects and Infrastructure
+Personal / Company Projects
+2025 - Present
+
+- Deployed Django and Node.js applications on production servers.
+- Configured Nginx reverse proxy and Gunicorn for application
+  hosting.
+- Managed MySQL and PostgreSQL databases in Linux environments.
+- Implemented monitoring and troubleshooting practices for
+  production systems.
+- Handled SFTP access, server permissions, and environment setup.
+
+================================================================
+PROJECT HIGHLIGHTS
+================================================================
+CI/CD Pipeline Automation
+- Automated build and deployment workflows using Jenkins, Git, and
+  production server integration.
+
+AWS Infrastructure Deployment
+- Set up EC2-based application hosting with domain configuration,
+  SSL, and reverse proxy support.
+
+Dockerized Application Deployment
+- Containerized web applications and managed services using Docker
+  Compose.
+
+Kubernetes Cluster Setup
+- Worked on Kubernetes-based deployment setups with scaling,
+  monitoring, and orchestration concepts.
+
+================================================================
+EDUCATION
+================================================================
+Bachelor's Degree in Computer Science
+
+================================================================
+NOTE
+================================================================
+This is a demo resume file included for download testing.
