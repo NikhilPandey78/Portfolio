@@ -13,7 +13,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/NikhilPandey78"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
@@ -22,7 +22,7 @@ export default function Footer() {
             <Github size={18} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/nikhil-kumar-pandey-3a5b8637a"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
