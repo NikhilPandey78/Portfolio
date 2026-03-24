@@ -147,10 +147,10 @@ export default function Contact() {
 
             <div className="mt-7 flex gap-3">
               {[
-                { icon: Github, href: "https://github.com", label: "GitHub" },
+                { icon: Github, href: "https://github.com/NikhilPandey78", label: "GitHub" },
                 {
                   icon: Linkedin,
-                  href: "https://linkedin.com",
+                  href: "https://www.linkedin.com/in/nikhil-kumar-pandey-3a5b8637a",
                   label: "LinkedIn",
                 },
                 {
