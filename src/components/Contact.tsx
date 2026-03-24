@@ -24,7 +24,7 @@ type FormState = {
 
 export default function Contact() {
   const contactApiBaseUrl =
-    process.env.NEXT_PUBLIC_CONTACT_API_URL ?? "http://13.204.88.70:5000";
+    process.env.NEXT_PUBLIC_CONTACT_API_URL ?? "https://backendnikhil.up.railway.app";
   const [formData, setFormData] = useState<FormState>({
     name: "",
     email: "",
