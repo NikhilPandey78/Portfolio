@@ -60,6 +60,10 @@ Thumbs.db
 # Optional: local databases
 *.sqlite
 *.db
+*.sql
+
+# Local archives and exports
+*.zip
 
 # Optional: temporary files
 tmp/

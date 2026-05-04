@@ -10,9 +10,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-obsidian text-white">
+    <div className="min-h-screen overflow-x-hidden bg-obsidian text-white">
       <Header />
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <About />
         <Skills />

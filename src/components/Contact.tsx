@@ -2,7 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { ChevronDown, Github, Linkedin, Mail, Send } from "lucide-react";
+import {
+  ChevronDown,
+  Github,
+  Linkedin,
+  Mail,
+  Send,
+} from "lucide-react";
 
 const inquiryOptions = [
   "Cloud Setup",
@@ -21,6 +27,19 @@ type FormState = {
   category: string;
   message: string;
 };
+
+const WhatsAppIcon = ({ size = 18 }: { size?: number }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    aria-hidden="true"
+  >
+    <path d="M19.05 4.91A9.82 9.82 0 0 0 12.03 2C6.6 2 2.18 6.42 2.18 11.85c0 1.74.45 3.44 1.3 4.95L2 22l5.35-1.4a9.8 9.8 0 0 0 4.68 1.19h.01c5.43 0 9.85-4.42 9.85-9.85a9.8 9.8 0 0 0-2.84-7.03Zm-7.02 15.21h-.01a8.16 8.16 0 0 1-4.15-1.13l-.3-.18-3.17.83.85-3.09-.2-.32a8.13 8.13 0 0 1-1.25-4.36c0-4.5 3.67-8.17 8.18-8.17 2.18 0 4.22.84 5.76 2.39a8.1 8.1 0 0 1 2.39 5.78c0 4.5-3.67 8.17-8.1 8.17Zm4.48-6.12c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.19-.7-.62-1.18-1.39-1.32-1.63-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.79-.2-.47-.4-.41-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.33.98 2.49c.12.16 1.7 2.59 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.1.15 1.51.09.46-.07 1.43-.58 1.63-1.15.2-.57.2-1.05.14-1.15-.06-.1-.22-.16-.46-.28Z" />
+  </svg>
+);
 
 export default function Contact() {
   const contactApiBaseUrl =
@@ -157,6 +176,11 @@ export default function Contact() {
                   icon: Mail,
                   href: "mailto:np63884336@gmail.com",
                   label: "Email",
+                },
+                {
+                  icon: WhatsAppIcon,
+                  href: "https://wa.me/916388433679",
+                  label: "Official WhatsApp",
                 },
               ].map((item) => {
                 const Icon = item.icon;
