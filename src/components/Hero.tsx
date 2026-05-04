@@ -21,7 +21,7 @@ export default function Hero() {
   const handleResumeDownload = () => {
     const link = document.createElement('a');
     link.href = '/nikhil_resume.png';
-    link.download = 'Nikhil-Pandey-Resume.png';
+    link.download = 'Nikhil-Kumar-Pandey-Resume.png';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
