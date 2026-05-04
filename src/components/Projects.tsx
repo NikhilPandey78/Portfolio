@@ -6,6 +6,14 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
   {
+    title: 'Code 2 Cloud',
+    description:
+      'A live cloud deployment project showcasing code delivery from development workflow to production hosting on Vercel.',
+    image: '/code-2-cloud.svg',
+    stack: ['Next.js', 'Vercel', 'Cloud Deployment'],
+    href: 'https://code-2-cloude.vercel.app/',
+  },
+  {
     title: 'Pipeline Forge',
     description:
       'A secure CI/CD platform for automated build, validation, and controlled production releases.',
@@ -100,13 +108,25 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <button
-                  type="button"
-                  className="mt-5 inline-flex items-center gap-2 text-sm uppercase tracking-[0.22em] text-[#f5d17b] transition-transform duration-300 group-hover:translate-x-1"
-                >
-                  View Details
-                  <ArrowUpRight size={16} />
-                </button>
+                {project.href ? (
+                  <a
+                    href={project.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-5 inline-flex items-center gap-2 text-sm uppercase tracking-[0.22em] text-[#f5d17b] transition-transform duration-300 group-hover:translate-x-1"
+                  >
+                    View Live
+                    <ArrowUpRight size={16} />
+                  </a>
+                ) : (
+                  <button
+                    type="button"
+                    className="mt-5 inline-flex items-center gap-2 text-sm uppercase tracking-[0.22em] text-[#f5d17b] transition-transform duration-300 group-hover:translate-x-1"
+                  >
+                    View Details
+                    <ArrowUpRight size={16} />
+                  </button>
+                )}
               </div>
             </motion.article>
           ))}
